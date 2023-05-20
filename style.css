@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper > textarea{  
+   resize: none;
+   text-align: right;
+   font-size: 3rem;
+   font-weight: bold;
+   text-align: center;
+   border: none;
+   outline: none;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+}
